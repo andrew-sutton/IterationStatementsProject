@@ -42,9 +42,9 @@ namespace IterationStatements
 
             // Create a foreach loop
             // Write your variable to the console
-            foreach(int i in numbers)
+            foreach(var number in numbers)
             {
-                Console.WriteLine(i);
+                Console.WriteLine(number);
             }
 
             Console.WriteLine("");
